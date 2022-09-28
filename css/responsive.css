@@ -112,6 +112,30 @@
         border: none;
     }
 
+
+    /* Blog page */
+    /* Home section */
+    .home h2{
+        font-size: 25px;
+    }
+    .blog-home-left{
+        width: 100% !important;
+    }
+    .blog-container{
+        flex-wrap: wrap;
+    }
+    .blog-home-right{
+        flex-basis: 100%;
+    }
+    /* Blog post section */
+    .blog-post{
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+    .blog-post h3{
+        width: 100%;
+    }
+
 }
 
 /* // Medium devices (tablets, less than 992px) */
