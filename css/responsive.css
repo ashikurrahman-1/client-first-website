@@ -1,0 +1,131 @@
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 36em) { 
+    .container{
+        width: 95%;
+    }
+    .home{
+        padding: 50px 0;
+    }
+
+    /* About section */
+    .about-bottom{
+        padding: 20px !important;
+    }
+    /* Category section */
+    .category h2{
+        font-size: 28px;
+    }
+
+    /* Group section */
+    .group .group-right{
+        padding: 20px;
+    }
+
+    /* testimonial section */
+    .testimonials{
+        padding: 20px;
+    }
+    .testimonial-left{
+        padding: 0;
+    }
+    .testimonial-right .testimonial-right-bottom{
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+
+    /* footer section */
+    footer .navbar{
+        row-gap: 20px;
+    }
+    .subscribe{
+        padding: 20px;
+    }
+    .subscribe .sub-left{
+        flex-basis: 100%;
+    }
+    .subscribe .sub-right{
+        flex-basis: 100%;
+    }
+    .subscribe input[type=submit]{
+        width: 45%;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 48em) {
+    /* Navbar section */
+    
+    header .navbar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: brown;
+        position: fixed;
+        top: 80px;
+        right: -48%;
+        transition: right 0.5s ease-in-out;
+    }
+    header label{
+        display: block;
+    }
+    header input:checked ~ .nav-right ul{
+        right: 0%;
+    }
+
+    /* Home section */
+    .home{
+        width: 100%;
+    }
+    .home h2, .home p{
+        width: 100%;
+    }
+
+    
+
+    /* About section */
+    .about-bottom{
+        flex-wrap: wrap;
+    }
+
+    /* Group section */
+    .group{
+        position: unset;
+        height: fit-content;
+    }
+    .group .group-right{
+        position: unset;
+        flex-basis: 100%;
+    }
+    .group .group-left{
+        flex-basis: 100%;
+    }
+
+    /* Testimonial section */
+    .testimonials{
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+    .testimonial-right{
+        padding: 0;
+        border: none;
+    }
+
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 62em) {
+    .home{
+        width: 80%;
+    }
+    /* Post section */
+    .post .post-left, .post .post-right{
+        flex-basis: 100%;
+    }
+ }
+
+/* // Large devices (desktops, greater than 1200px) */
+@media (min-width: 75em) {
+
+ }
