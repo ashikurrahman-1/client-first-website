@@ -147,6 +147,14 @@
     .post .post-left, .post .post-right{
         flex-basis: 100%;
     }
+
+    /* Contact page */
+    .contact-middle{
+        padding: 1rem;
+    }
+    .contact-middle .cm-left, .contact-middle .cm-right{
+        flex-basis: 92%;
+    }
  }
 
 /* // Large devices (desktops, greater than 1200px) */
