@@ -2,11 +2,16 @@
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 36em) { 
+    /* Home page */
     .container{
         width: 95%;
     }
     .home{
         padding: 50px 0;
+    }
+    /* category section */
+    .category .categories{
+        text-align: center;
     }
 
     /* About section */
@@ -21,6 +26,27 @@
     /* Group section */
     .group .group-right{
         padding: 20px;
+    }
+
+    /* About Page */
+    /* About section */
+    .a-top{
+        width: 100%;
+    }
+    .countdown{
+        flex-wrap: wrap;
+        left: 0;
+    }
+    .count{
+        padding: 10px;
+    }
+
+    /* Team section */
+    .team-top, .team-bottom{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .team-top .team-top-left, .team-bottom .team-bottom-right{
+        padding: 0 10px;
     }
 
     /* testimonial section */
@@ -134,6 +160,19 @@
     }
     .blog-post h3{
         width: 100%;
+    }
+
+    /* About Page */
+    /* about section */
+    .a-top{
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+    .a-top :is(.at-left,.at-right){
+    flex-basis: 100%;
+    }
+    .a-top .at-right{
+        margin: 30px 0 50px;
     }
 
 }

@@ -457,7 +457,107 @@ nav input, nav label{
 }
 
 /* About Page */
+/* About section */
+.a-top{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.a-top :is(.at-left,.at-right){
+    flex-basis: 45%;
+}
+.a-top .at-left{
+    background-color: #FFFFFF;
+    transform: translateY(50px);
+    padding: 20px 40px;
+    z-index: 1;
+}
+.a-top .at-left h2{
+    margin: 20px 0 0;
+}
 
+.a-middle{
+    position: relative;
+    z-index: 0;
+}
+.a-middle img{
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+.countdown{
+    display: flex;
+    background-color: #ffb62d;
+    /* width: 36%; */
+    justify-content: space-between;
+    position: absolute;
+    bottom: 4px;
+    left: 20%;
+}
+.count{
+    padding: 20px;
+}
+.count h3{
+    font-size: 30px;
+}
+.count p{
+    font-size: 12px;
+}
+
+.a-bottom{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: space-around;
+    gap: 30px;
+    background-color: #F4F0F8;
+    padding: 100px 50px 50px;
+}
+.a-bottom .a-bottom-left, .a-bottom .a-bottom-right{
+    flex-basis: 40%;
+}
+.a-bottom .a-bottom-left h3, .a-bottom .a-bottom-right h3{
+    font-size: 28px;
+    margin: 20px 0;
+}
+.a-bottom .a-bottom-left p, .a-bottom .a-bottom-right p{
+    line-height: 25px;
+}
+
+/* Team section */
+#team{
+    margin: 80px 0;
+}
+.team{
+    display: grid;
+    gap: 60px;
+}
+.team img{
+    width: 100%;
+    border-radius: 20px;
+}
+.team-top, .team-bottom{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.team-top .team-top-left, .team-bottom .team-bottom-right{
+    padding: 0 50px;
+}
+.team-top h3, .team-bottom h3{
+    font-size: 25px;
+}
+.team-top h4, .team-bottom h4{
+    margin: 30px 0;
+    font-size: 20px;
+    line-height: 28px;
+}
+.team-top p, .team-bottom p{
+    line-height: 25px;
+}
 
 /* Contact Page */
 #contact{
@@ -576,6 +676,7 @@ footer .navbar ul li:last-child a{
     border: 1px solid gray;
     outline: none;
     background-color: transparent;
+    color: lightgray;
 }
 .subscribe input[type=submit]{
     width: 30%;
