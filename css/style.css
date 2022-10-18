@@ -232,10 +232,10 @@ nav input, nav label{
 }
 
 /* Category section */
-#category{
+#h-category, #b-category{
     margin: 50px 0;
 }
-.category h2{
+.h-category h2, .b-category h2{
     text-align: center;
     font-size: 35px;
 }
@@ -601,7 +601,6 @@ nav input, nav label{
     display: flex;
     margin-bottom: 50px;
     gap: 50px;
-    /* justify-content: space-between; */
     align-items: center;
 }
 .main-author-bottom .mab h5{
@@ -616,6 +615,71 @@ nav input, nav label{
     line-height: 28px;
 }
 
+/* Category Page */
+#category{
+    margin: 0px 0 100px;
+}
+.category-top{
+    padding: 60px 0;
+    background: #e7e7e7;
+}
+.category-content{
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+}
+.category-post h3{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.category-content h2{
+    font-size: 40px;
+}
+
+.category-content p{
+    margin: 20px 0;
+}
+.category-bottom-right{
+    margin-top: 50px;
+}
+.category-bottom-right .category-names > h3{
+    font-size: 30px;
+}
+.category-names .cname{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    border: 1px solid #ffb62d;
+    margin-top: 20px;
+    transition: background 0.5s;
+}
+.category-names .cname:hover{
+    background: #ffb62d;
+}
+.category-names .cname-one img{
+    padding: 12px 10px;
+}
+.category-container{
+    display: flex;
+    gap: 80px;
+}
+
+.category-tags{
+    width: 250px;
+    margin-top: 50px;
+}
+.category-tags ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.category-tags ul li{
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 50px;
+}
 
 /* Contact Page */
 #contact{
