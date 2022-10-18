@@ -559,6 +559,64 @@ nav input, nav label{
     line-height: 25px;
 }
 
+/* Author Page */
+.main-author-container{
+    width: 70%;
+}
+.main-author-top{
+    padding: 100px 0;
+    background-color: #F4F0F8;
+}
+.mat{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+/* .mat img{
+    width: 100%;
+} */
+.mat .mat-right{
+    padding: 0 80px 0 0;
+}
+.mat .mat-right h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.mat .mat-right p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.mat .mat-right ul{
+    display: flex;
+    gap: 20px;
+}
+.mat .mat-right ul a{
+    color: #1d1d1d;
+}
+
+.main-author-bottom{
+    margin: 100px 0;
+}
+.main-author-bottom .mab{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 50px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.main-author-bottom .mab h5{
+    color: blueviolet;
+}
+.main-author-bottom .mab h2{
+    margin: 20px 0;
+    line-height: 35px;
+}
+
+.main-author-bottom .mab p{
+    line-height: 28px;
+}
+
+
 /* Contact Page */
 #contact{
     margin: 100px 0;

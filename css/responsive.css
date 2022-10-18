@@ -77,7 +77,15 @@
     .subscribe input[type=submit]{
         width: 45%;
     }
+    
+    /* Author page */
+    .mat .mat-right{
+        padding: 0;
+    }
 }
+
+
+
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 48em) {
@@ -194,7 +202,17 @@
     .contact-middle .cm-left, .contact-middle .cm-right{
         flex-basis: 92%;
     }
+    /* Author page */
+    .mat, .mab{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mab img{
+        width: 100%;
+    }
  }
+
+ 
 
 /* // Large devices (desktops, greater than 1200px) */
 @media (min-width: 75em) {
