@@ -456,6 +456,63 @@ nav input, nav label{
     margin: 50px 0;
 }
 
+/* Blog Post Page */
+.bpt-container{
+    width: 50%;
+    margin: 80px auto 50px;
+}
+.blog-post-top h2{
+    font-size: 38px;
+    margin: 20px 0;
+}
+.andrew{
+    display: flex;
+    column-gap: 10px;
+}
+.andrew img{
+    width: 40px;
+}
+.andrew h4{
+    color: #592EA9;
+}
+.category-label{
+    display: flex;
+    gap: 10px;
+}
+.bpt-container ~ img{
+    width: 100%;
+}
+
+.blog-post-middle{
+    width: 50%;
+    margin: 50px auto 50px;
+}
+.blog-post-middle p{
+    margin: 20px 0;
+}
+.blog-post-middle ul{
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.blog-post-bottom{
+    margin: 100px 0 80px;
+}
+
+
+.other-posts{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    margin-top: 50px;
+}
+.other-posts img{
+    width: 100%;
+}
+.other-posts p{
+    margin: 20px 0;
+}
+
 /* About Page */
 /* About section */
 .a-top{

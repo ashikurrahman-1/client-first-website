@@ -88,6 +88,9 @@
     .category-content{
         width: 80% !important;
     }
+    .bpt-container, .blog-post-middle{
+        width: 80%;
+    }
 }
 
 
