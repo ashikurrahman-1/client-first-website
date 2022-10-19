@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.area{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0 ,0.4)), url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 300px;
+    height: 450px;
+    background: #fff;
+    margin: 6% auto;
+    padding: 5px;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Buttons */
+
+.toggle-btn{
+    width: 200px;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+}
+#btns{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.btn{
+    padding: 10px 28px;
+    cursor: pointer;
+    position: relative;
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+/* Social Icons */
+.social-icons{
+    text-align: center;
+    margin: 30px auto;
+}
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Inputs */
+/* .input-group{
+
+} */
+.up{
+    width: 92%;
+    padding: 10px 0;
+    margin: 10px 0px 10px 10px;
+    border-top: 0;
+    border-bottom: 1px solid lightslategray;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+    background: transparent;
+}
+.checkbox{
+    margin: 20px 5px;
+}
+.submit{
+    display: block;
+    width: 80%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    margin: 10px auto;
+    padding: 10px 0;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow:  0 0 20px 9px #ff622444;
+}
+#login{
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+#register{
+    position: relative;
+    top: -222px;
+    left: 300px;
+    transition: .5s;
+}
